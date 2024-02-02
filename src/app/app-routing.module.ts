@@ -9,12 +9,12 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 const routes: Routes = [
    { path:'', component: HomeComponent},
-   { path: 'caregory', component: SingleCatagoryComponent},
-   { path: 'post', component: SinglePostComponent},
+   { path:'category', component: SingleCatagoryComponent},
+   { path:'post', component: SinglePostComponent},
 
-   { path: 'about', component: AboutUsComponent},
-   { path: 'term-conditions', component: TermsAndConditionComponent},
-   { path: 'contact', component: ContactUsComponent}
+   { path:'about', component: AboutUsComponent},
+   { path:'term-conditions', component: TermsAndConditionComponent},
+   { path:'contact', component: ContactUsComponent}
 
    
 ];
